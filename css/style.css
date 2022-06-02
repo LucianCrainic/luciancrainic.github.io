@@ -3,7 +3,7 @@
 :root {
   --dark-one: #333;
   --dark-two: #7a7a7a;
-  --main-color: #fb5e4c;
+  --main-color: #4c52fb;
   --light-one: #fff;
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
@@ -2114,3 +2114,18 @@ header .circle {
 }
 
 /* End Responsive */
+
+::-webkit-scrollbar{
+  width: .60rem;
+  background-color: var(--scroll-bar-color);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--scroll-thumb-color);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: var(--text-color-light);
+}
