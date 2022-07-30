@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #b3b3b3;
+    background-color: #777777;
 }
 
 .main-content{
@@ -21,7 +21,9 @@ body{
 .left-section{
     grid-column: span 2;
     height: 100%;
-    background-color: #395B64;
+    /*background-color: #395B64;*/
+    background-color: #4c52fb;
+
 }
 .right-section{
     grid-column: span 5;
@@ -35,7 +37,7 @@ body{
 }
 .profile{
     width: 100%;
-    border-bottom: 1px solid #000633;
+    border-bottom: 2px solid #ffffff;
 }
 
 .image{
@@ -45,7 +47,7 @@ body{
 .profile img{
     width: 100%;
     border-radius: 50%;
-    border: 8px solid #333;
+    border: 8px solid #2C3639;
     
 }
 
@@ -71,7 +73,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #f7f7f7ec;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .contact-info ul{
@@ -150,7 +152,7 @@ body{
 .right-title{
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #395B64;
+    color: #4c52fb;
     margin-bottom: 1.2rem;
     position: relative;
 }
