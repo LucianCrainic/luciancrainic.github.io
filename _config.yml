@@ -1,0 +1,41 @@
+title: Lucian D. Crainic
+description: "Hello! This is a temporary website. Main website is under construction"
+baseurl: ""
+url: https://luciancrainic.github.io/
+
+json:
+  name: lucian dorin crainic
+  description:
+    - Hello!
+    - This is a temporary website
+    - Main website is under construction
+  cv: assets/cv.pdf
+  location:
+    - University of Jekyll
+    - Department of Themes
+    - 123 Main St, Anytown, USA
+  contact:
+    #office: Foobar Hall 1.23
+    phone: +39 327 0499569
+    email: crainic.lucian@gmail.com
+
+  source: https://github.com/LucianCrainic
+  profiles:
+    instagram: https://www.instagram.com/lucian.crainic/
+    linkedin: https://www.linkedin.com/in/lucian-dorin-crainic-705510183/
+
+exclude:
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
